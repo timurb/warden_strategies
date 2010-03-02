@@ -11,7 +11,7 @@ module WardenStrategies
   # Account.authenticate_account_holder("fred", "sekrit", "main")
   #
   # @example
-  #   class AccountStrategy < WardenStrategies::Base
+  #   class AccountStrategy < WardenStrategies::Simple
   #     config.merge!(
   #       :user_class           => Account,
   #       :authenticate_method  => :authenticate_account_holder,
